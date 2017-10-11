@@ -1,0 +1,24 @@
+extends ../template
+
+block variables
+  - var title = 'Добро пожаловать'
+
+block content
+  .main.section
+    .container
+      header.main-header
+        .main-header-right
+          img(src="assets/images/logo.svg", alt="").header-logo
+        .main-header-left
+          a(href="#").main-header-left-but Калькуляция потерь
+          a(href="tel:+79112096572").main-header-left-phone +7 (911) 209-65-72
+      .main-block
+        .main-block-left
+          h1.main-block-left__title Хотите, чтобы ваш сайт работал как часы?
+          .main-block-left__text Мы обеспечим техническую поддержку сайта, которая гарантирует стабильную работу ресурса 24/7
+          .main-block-left-but
+            a(href="#").main-block-left-but__link.main-but Оставить заявку
+        .main-block-right
+          img.main-block-right__img(src="assets/images/macbook.png", alt="")
+ 
+
