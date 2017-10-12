@@ -20,5 +20,204 @@ block content
             a(href="#").main-block-left-but__link.main-but Оставить заявку
         .main-block-right
           img.main-block-right__img(src="assets/images/macbook.png", alt="")
- 
+  .main-bot
+    .container
+      .main-bot
+        .main-bot-left 
+          .main-bot-left__title <span>Техническая поддержка</span> — это не только основа жизнеспособности любого сайта, но и его конкурентоспособности.
+        .main-bot-right
+          .main-bot-right__text Многие компании считают, что сделав единожды сайт и наполнив его всей необходимой информацией для клиентов, перестают заниматься его обслуживанием, пребывая в уверенности, что проделанной работы достаточно для качественного обслуживания клиентов.
+          .main-bot-right-but
+            a.main-bot-right-but__link.main-but--white(href="#") Узнать больше
+  .sup
+    .container
+      .sup__title <span> Вы потеряете 216 000 рублей за 8 часов!</span> <br> Почему, и как это исправить? 
+      .sup__title1 Реальный пример из нашей практики! 
+      .sup-top
+        .sup-top-block
+          .sup-top-item
+            .sup-top-item-top
+              img(src="assets/images/icons/suptop0.svg", alt="").sup-top-item__img
+              span.sup-top-item-top-line
+              span.sup-top-item-top-line
+              span.sup-top-item-top-arrow
+            .sup-top-item__title 900 посетителей за 24 часа
+            .sup-top-item__text Средний показатель посещяемости Вашего сайта
+          .sup-top-item
+            .sup-top-item-top
+              img(src="assets/images/icons/suptop1.svg", alt="").sup-top-item__img
+              span.sup-top-item-top-line
+              span.sup-top-item-top-line
+              span.sup-top-item-top-arrow
+            .sup-top-item__title Конверсия 9%
+            .sup-top-item__text В среднем чеке 8 000 руб., выручка за 24 часа составляет 648 000 руб.
+          .sup-top-item
+            .sup-top-item-top
+              img(src="assets/images/icons/suptop2.svg", alt="").sup-top-item__img
+              span.sup-top-item-top-line
+              span.sup-top-item-top-line
+              span.sup-top-item-top-arrow-left
+            .sup-top-item__title ≈ 37,5 посетителей в час
+            .sup-top-item__text Это 300 посетителей за 8 часов или 27 клиентов или 216 000 руб. выручки.*
+        .sup-top-line
+          span.sup-top-item-top-arrow-circle
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-line
+          span.sup-top-item-top-arrow-left
+        .sup-top-block  
+          .sup-top-item
+            .sup-top-item-top
+              img(src="assets/images/icons/suptop3.svg", alt="").sup-top-item__img
+              span.sup-top-item-top-line
+              span.sup-top-item-top-line
+              span.sup-top-item-top-arrow
+            .sup-top-item__title.sup-top-item__title--red Сайт перестал работать
+            .sup-top-item__text Представим, что по каким-либо техническим причинам и не оперативной реакции на них, сайт был не доступен в течении 8 часов.
+          .sup-top-item
+            .sup-top-item-top
+              img(src="assets/images/icons/suptop4.svg", alt="").sup-top-item__img
+              span.sup-top-item-top-arrow.sup-top-item-top-arrow--swap
+              span.sup-top-item-top-line
+                span.sup-top-item-top-line--text Что дешевле?
+              span.sup-top-item-top-arrow
+            .sup-top-item__title.sup-top-item__title--red 216 000 руб. выручки за 8 часов!!!
+            .sup-top-item__text Именно такая будет будет цена простоя сайта
+          .sup-top-item
+            .sup-top-item-top
+              img(src="assets/images/icons/suptop5.svg", alt="").sup-top-item__img
+            .sup-top-item__title.sup-top-item__title--green Комплексная поддержка сайта от 12 800 руб.
+            .sup-top-item__text Постоянная комплексная техническая поддержка сайта будет обходится Вам от 12 800 руб. в месяц.
+            .sup-top-item-but
+              a.sup-top-item-but__link.main-but(href="#") Оставить заявку
+      .sup-bot
+        .sup__title Мы предлагаем своим клиентам
+        .sup__title1 Комплексную техническую поддержку сайта, <br> включающую в себя следующее:
+        - 
+          var supList = [
+            "Обеспечение стабильной и бесперебойной работы Вашего сайта", 
+            "Быструю реакцию на Ваши заявки (от 1 часа до 15 минут)", 
+            "Экстренное восстановление работы сайта, а также доступов к нему", 
+            "Выполнение работ по сайту от размещения фотографий до разработки и написания дополнительных модулей и страниц", 
+            "Подробный анализ технического состояния Вашего сайта с выдачей рекомендаций по его оптимизации и подготовка подробного технического задания", 
+            "Разработка и регулярное написание статей/новостей для размещения на сайте"
+          ]
+        .sup-bot-list
+          each item,index in supList
+            .sup-bot-item
+              img.sup-bot-item__img(src=`assets/images/icons/supbot${index}.svg`, alt="")
+              .sup-bot-item__text #{item}
+  .komsup
+    .container
+      .sup__title Комплексная техническая поддержка сайта
+      .sup__title1 даст Вам следующие преимущества
+       - 
+          var komSupList = [
+            "Конкурентоспособность сайта", 
+            "Увеличение позиций сайта в поисковых системах", 
+            "Большее количество просмотров сайта", 
+            "Большее количество целевых клиентов и продаж", 
+            "Увеличение скорости работы страниц и всего сайта в целом"
+          ]
+      .komsup-list
+        each item,index in komSupList
+          .komsup-list-item
+            .komsup-list-item-image
+              img(src=`assets/images/icons/komsup${index}.svg`, alt="").komsup-list-item-image__img
+            .komsup-list-item__text=item
+  .komsup-bot
+    .container
+      .komsup-bot-list
+        .komsup-bot-list-item
+         img(src="assets/images/icons/komsup-bot.svg", alt="").komsup-bot-list-item__img
+         .komsup-bot-list-item__title Мы думаем о Ваших финансах
+         .komsup-bot-list-item__text <span>Скидка</span> до 15% за приобретение пакетов обслуживания на 3, 6 или 12 месяцев 
+        .komsup-bot-list-item
+         img(src="assets/images/icons/komsup-bot1.svg", alt="").komsup-bot-list-item__img
+         .komsup-bot-list-item__title Мы ценим Ваше доверие
+         .komsup-bot-list-item__text <span>Скидка 40%</span> за первичное обращение или при переходе от конкурента
+      .komsup-bot__text При переходе от конкурента <span> предоставляется скидка −40% на все тарифы, </span> кроме тарифа «Базовый» сроком подключения на 1 месяц. Далее обслуживание производится согласно действующим тарифам. 
+      .komsup-bot-but
+        a.komsup-bot-but__link(href="#").main-but Отправить заявку
+  - var tableLeft = ['Стоимость', 'Общая стоимость', 'Стоимость часов сверх отведенных тарифом', 'Скидка −5% при заказе на 3 месяца', 'Скидка −10% при заказе на 6 месяцев', 'Скидка −15% при заказе на 12 месяцев', 'Срок реакции    на заявку', 'Максимальное количество сопровождаемых сайтов', 'Создание резервной копии сайта']
+  .table
+    .container
+      .sup__title Комплексная техническая поддержка <br> и развитие сайтов
+      .sup__title1 На 1С-Битрикс и других CMS
+      .table-main.clearfix
+        .table-main-left
+          each item in tableLeft
+            .table-main-left__item= item 
+        .table-main-right
+          - for (var i = 0; i < 10; i++){
+            .table-main-right-item
+              .table-main-right-item-title
+                .table-main-right-item-title__top Приветствие
+                .table-main-right-item-title__bot Скидка 40% от тарифа «Стандарт
+              .table-main-right-item-it.table-main-right-item-it--one <span>732 руб.</span> в час
+              .table-main-right-item-it.table-main-right-item-it--one <span>10 980 руб.</span> 
+              .table-main-right-item-it.table-main-right-item-it--two Нет
+              .table-main-right-item-it.table-main-right-item-it--two Нет
+              .table-main-right-item-it.table-main-right-item-it--two Нет
+              .table-main-right-item-it.table-main-right-item-it--two Нет
+              .table-main-right-item-it.table-main-right-item-it--one до 45 минут
+              .table-main-right-item-it.table-main-right-item-it--four 2 сайта 
+              .table-main-right-item-it.table-main-right-item-it--two  Еженедельно
+          -}
+  .table-bot
+    .container
+      .table-bot-list
+        .table-bot-item
+          img.table-bot-item__img(src="assets/images/icons/table-bot.svg", alt="")
+          .table-bot-item-desc
+            .table-bot-item-desc-title Техническая поддержка сайта
+            ul.table-bot-item-desc-list
+              li.table-bot-item-desc-list-it Плановые проверки работоспособности сайта
+              li.table-bot-item-desc-list-it Решение вопросов с технической поддержкой хостинг-провайдера
+              li.table-bot-item-desc-list-it Устранение неполадок при их обнаружении
+              li.table-bot-item-desc-list-it Контроль времени оплаты домена и хостинга
+              li.table-bot-item-desc-list-it Проверка сайта на наличие вредоносного кода в программах
+              li.table-bot-item-desc-list-it Восстановление данных при утрате доступов
+              li.table-bot-item-desc-list-it Оптимизация скорости загрузки страниц — <span>Кроме тарифов «Базовый» и «Стандарт»</span>
+        .table-bot-item
+          img.table-bot-item__img(src="assets/images/icons/table-bot1.svg", alt="")
+          .table-bot-item-desc
+            .table-bot-item-desc-title Администрирование сайта
+            ul.table-bot-item-desc-list
+              li.table-bot-item-desc-list-it Разработка и написание дополнительных модулей и страниц
+              li.table-bot-item-desc-list-it Разработка** и регулярное написание статей/новостей для размещения на сайте* — <span> Кроме тарифа «Базовый»</span>
+              li.table-bot-item-desc-list-it Подробный анализ технического состояния сайта с выдачей рекомендаций по его оптимизации и подготовка подробного технического задания
+  .form
+    .container
+      .form-left
+        .form-left__title Узнайте стоимость технической поддержки
+        .form-left__text Вы получите лучшее предложение уже завтра. Или как минимум практические советы, которые сможете внедрить и улучшить свою рекламу.
+        form(action="").form-left-main
+          .form-left-main-item
+            label
+              img(src="assets/images/icons/form.svg", alt="").form-left-main-item__img
+              input(type="text", placeholder="Как к вам обращаться?").form-left-main-item__input
+          .form-left-main-item
+            label
+              img(src="assets/images/icons/form1.svg", alt="").form-left-main-item__img
+              input(type="text", placeholder="Адрес вашего сайта?").form-left-main-item__input
+          .form-left-main-item
+            label
+              img(src="assets/images/icons/form2.svg", alt="").form-left-main-item__img
+              input(type="text", placeholder="Контактный номер телефона").form-left-main-item__input
+          .form-left-main-but
+            input(type="submit").form-left-main-item__sub.main-but
+      .form-right
+        img(src="assets/images/form-bg.png", alt="").form-right__img
+
+
+        
+
 
